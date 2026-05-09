@@ -1,0 +1,26 @@
+Starting job 17838114 on c2-30 on Saga at Tue Apr 21 23:49:52 CEST 2026
+
+
+Job 17838114 consumed 5.4 billing hours from project nn9535k.
+
+Submitted 2026-04-21T23:49:51; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   7.9 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+17838114          32            0.0 %  2026-04-21T23:49:52  476.0 s  0
+17838114.batch    32      1    12.6 %  2026-04-21T23:49:52  476.0 s  0
+
+Used CPU time:   32.1 CPU minutes
+Unused CPU time: 3.7 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+17838114         160.0        
+17838114.batch   160.0    42.9
+
+Job 17838114 completed at Tue Apr 21 23:57:48 CEST 2026

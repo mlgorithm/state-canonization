@@ -1,0 +1,26 @@
+Starting job 17838120 on c6-4 on Saga at Wed Apr 22 07:20:16 CEST 2026
+
+
+Job 17838120 consumed 45.8 billing hours from project nn9535k.
+
+Submitted 2026-04-21T23:49:58; waited 7.5 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   49.0 minutes
+
+Job had an out of memory error.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+17838120          32            0.0 %  2026-04-22T07:20:16  2942.0 s  Signal 125
+17838120.batch    32      1    10.2 %  2026-04-22T07:20:16  2942.0 s  Signal 125
+
+Used CPU time:   2.7 CPU hours
+Unused CPU time: 23.5 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+17838120         512.0        
+17838120.batch   512.0   512.0
+
+Job 17838120 completed at Wed Apr 22 08:09:19 CEST 2026

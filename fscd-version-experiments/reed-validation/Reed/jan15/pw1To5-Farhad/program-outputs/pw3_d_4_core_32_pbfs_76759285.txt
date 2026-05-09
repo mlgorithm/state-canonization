@@ -1,0 +1,57 @@
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 3
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 4
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+Premise is NOT ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        5                        4                        1,1,2,1
+2                        11                       6                        2,1,4,1
+3                        21                       10                       5,1,8,1
+4                        44                       23                       15,1,15,1
+5                        96                       52                       15,1,15,1
+6                        222                      126                      15,1,15,1
+7                        526                      304                      15,1,15,1
+8                        1254                     728                      15,1,17,1
+9                        2800                     1546                     15,1,18,1
+10                       6076                     3276                     15,1,18,1
+11                       12388                    6312                     15,1,18,1
+12                       24275                    11887                    15,1,19,1
+13                       45511                    21236                    15,1,20,1
+14                       80923                    35412                    15,1,20,1
+15                       138094                   57171                    15,1,20,1
+16                       227138                   89044                    15,1,21,1
+17                       359532                   132394                   15,1,22,1
+18                       542454                   182922                   15,1,22,1
+19                       791591                   249137                   15,1,22,1
+20                       1116604                  325013                   15,1,23,1
+21                       1502452                  385848                   15,1,24,1
+22                       1932703                  430251                   15,1,24,1
+23                       2415111                  482408                   15,1,24,1
+24                       2919389                  504278                   15,1,24,1
+25                       3386325                  466936                   15,1,26,1
+26                       3807681                  421356                   15,1,26,1
+27                       4182431                  374750                   15,1,26,1
+28                       4479613                  297182                   15,1,26,1
+29                       4688001                  208388                   15,1,26,1
+30                       4853453                  165452                   15,1,26,1
+31                       4963455                  110002                   15,1,26,1
+32                       5047307                  83852                    15,1,26,1
+33                       5104319                  57012                    15,1,26,1
+34                       5142981                  38662                    15,1,26,1
+35                       5166963                  23982                    15,1,26,1
+36                       5180637                  13674                    15,1,26,1
+37                       5187855                  7218                     15,1,26,1
+38                       5191287                  3432                     15,1,26,1
+39                       5192743                  1456                     15,1,26,1
+40                       5193323                  580                      15,1,26,1
+41                       5193467                  144                      15,1,26,1
+42                       5193467                  0                        15,1,26,1
+Conjecture: Satisfied

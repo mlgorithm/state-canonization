@@ -1,0 +1,65 @@
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 3
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 5
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+Premise is NOT ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        5                        4                        1,1,2,1
+2                        11                       6                        2,1,4,1
+3                        21                       10                       5,1,8,1
+4                        44                       23                       15,1,15,1
+5                        96                       52                       15,1,15,1
+6                        222                      126                      15,1,15,1
+7                        526                      304                      15,1,15,1
+8                        1260                     734                      15,1,17,1
+9                        2967                     1707                     15,1,18,1
+10                       6708                     3741                     15,1,18,1
+11                       14519                    7811                     15,1,18,1
+12                       29737                    15218                    15,1,19,1
+13                       58132                    28395                    15,1,20,1
+14                       108859                   50727                    15,1,20,1
+15                       194093                   85234                    15,1,20,1
+16                       333023                   138930                   15,1,21,1
+17                       551601                   218578                   15,1,22,1
+18                       888404                   336803                   15,1,22,1
+19                       1371382                  482978                   15,1,22,1
+20                       2035712                  664330                   15,1,23,1
+21                       2909885                  874173                   15,1,24,1
+22                       4018657                  1108772                  15,1,24,1
+23                       5314609                  1295952                  15,1,24,1
+24                       6765435                  1450826                  15,1,24,1
+25                       8325331                  1559896                  15,1,26,1
+26                       9913705                  1588374                  15,1,26,1
+27                       11409919                 1496214                  15,1,26,1
+28                       12725855                 1315936                  15,1,26,1
+29                       13835183                 1109328                  15,1,26,1
+30                       14677811                 842628                   15,1,26,1
+31                       15261361                 583550                   15,1,26,1
+32                       15605365                 344004                   15,1,26,1
+33                       15818455                 213090                   15,1,26,1
+34                       15907103                 88648                    15,1,26,1
+35                       15958031                 50928                    15,1,26,1
+36                       15975821                 17790                    15,1,26,1
+37                       15985139                 9318                     15,1,26,1
+38                       15988883                 3744                     15,1,26,1
+39                       15990651                 1768                     15,1,26,1
+40                       15991339                 688                      15,1,26,1
+41                       15991591                 252                      15,1,26,1
+42                       15991687                 96                       15,1,26,1
+43                       15991727                 40                       15,1,26,1
+44                       15991775                 48                       15,1,26,1
+45                       15991799                 24                       15,1,26,1
+46                       15991811                 12                       15,1,26,1
+47                       15991823                 12                       15,1,26,1
+48                       15991827                 4                        15,1,26,1
+49                       15991831                 4                        15,1,26,1
+50                       15991831                 0                        15,1,26,1
+Conjecture: Satisfied

@@ -1,0 +1,17 @@
+job_name,experiment,delta,property_file,search_option,search_type,profile,time,mem_per_cpu,cpus_per_task,threads,partition,submit_group,note
+tw1_d2_pbfs,tw1,2,properties/d_2.txt,none,pbfs,TIMEOUT,1-00:00:00,5G,32,32,,expanded-resource,Old run hit the wall-time limit. This keeps the paper-matching one-day wall time.
+tw1_d2_pibfs,tw1,2,properties/d_2.txt,none,pibfs,SEGFAULT,1-00:00:00,5G,32,32,,debug,Old run crashed quickly. This keeps the paper-matching one-day wall time for a debug rerun.
+tw1_d2_premise_pbfs,tw1,2,properties/d_2.txt,premise,pbfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d2_premise_pibfs,tw1,2,properties/d_2.txt,premise,pibfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d3_pbfs,tw1,3,properties/d_3.txt,none,pbfs,TIMEOUT,1-00:00:00,5G,32,32,,expanded-resource,Old run hit the wall-time limit. This keeps the paper-matching one-day wall time.
+tw1_d3_pibfs,tw1,3,properties/d_3.txt,none,pibfs,SEGFAULT,1-00:00:00,5G,32,32,,debug,Old run crashed quickly. This keeps the paper-matching one-day wall time for a debug rerun.
+tw1_d3_premise_pbfs,tw1,3,properties/d_3.txt,premise,pbfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d3_premise_pibfs,tw1,3,properties/d_3.txt,premise,pibfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d4_pbfs,tw1,4,properties/d_4.txt,none,pbfs,TIMEOUT,1-00:00:00,5G,32,32,,expanded-resource,Old run hit the wall-time limit. This keeps the paper-matching one-day wall time.
+tw1_d4_pibfs,tw1,4,properties/d_4.txt,none,pibfs,TIMEOUT,1-00:00:00,5G,32,32,,expanded-resource,Old run hit the wall-time limit. This keeps the paper-matching one-day wall time.
+tw1_d4_premise_pbfs,tw1,4,properties/d_4.txt,premise,pbfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d4_premise_pibfs,tw1,4,properties/d_4.txt,premise,pibfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d5_pbfs,tw1,5,properties/d_5.txt,none,pbfs,TIMEOUT,1-00:00:00,5G,32,32,,expanded-resource,Old run hit the wall-time limit. This keeps the paper-matching one-day wall time.
+tw1_d5_pibfs,tw1,5,properties/d_5.txt,none,pibfs,SEGFAULT,1-00:00:00,5G,32,32,,debug,Old run crashed quickly. This keeps the paper-matching one-day wall time for a debug rerun.
+tw1_d5_premise_pbfs,tw1,5,properties/d_5.txt,premise,pbfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."
+tw1_d5_premise_pibfs,tw1,5,properties/d_5.txt,premise,pibfs,default,1-00:00:00,5G,32,32,,standard,"Default all-experiment profile: 32 CPUs, 32 threads, about 160G total memory."

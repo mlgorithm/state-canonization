@@ -1,0 +1,36 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 1
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 5
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+Premise is NOT ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        3                        2                        1,1,2,1
+2                        4                        1                        2,1,4,1
+3                        5                        1                        2,1,4,1
+4                        8                        3                        2,1,4,1
+5                        13                       5                        2,1,4,1
+6                        21                       8                        2,1,4,1
+7                        34                       13                       2,1,4,1
+8                        50                       16                       2,1,4,1
+9                        67                       17                       2,1,4,1
+10                       75                       8                        2,1,4,1
+11                       77                       2                        2,1,4,1
+12                       79                       2                        2,1,4,1
+13                       81                       2                        2,1,4,1
+14                       83                       2                        2,1,4,1
+15                       85                       2                        2,1,4,1
+16                       87                       2                        2,1,4,1
+17                       89                       2                        2,1,4,1
+18                       90                       1                        2,1,4,1
+19                       92                       2                        2,1,4,1
+20                       94                       2                        2,1,4,1
+21                       94                       0                        2,1,4,1
+Conjecture: Satisfied

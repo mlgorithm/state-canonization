@@ -1,0 +1,2 @@
+/var/spool/slurmd/job7438041/slurm_script: line 10: 103355 Killed                  ../program/Build/./treewidzard -atp pw = 3 -pl -nthreads 64 ParallelBreadthFirstSearch ../inputs/d_3.txt > ../program-outputs/pw3_d_3_core_32_pbfs_20774728.txt
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=7438041.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

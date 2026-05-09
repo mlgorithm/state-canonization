@@ -1,0 +1,2 @@
+job-name,time,mem-per-cpu,ntasks,cpus-per-task,ntasks-per-node,script-file,command,account,width,Flags,Search Options,Threads,Search Type,input,MaxDegree,ChromaticNumber
+78663774,1-00:00:00,8G,1,32,1,../../jobs/tw1_d_5_core_32_premise_pibfs_78663774.sh,../program/Build/./treewidzard -atp  tw = 1 -pl -premise -nthreads 64 ParallelIsomorphismBreadthFirstSearch ../inputs/d_5.txt > ../program-outputs/tw1_d_5_core_32_premise_pibfs_78663774.txt,NN9535K,tw = 1,-pl,-premise,-nthreads 64,ParallelIsomorphismBreadthFirstSearch,../../inputs/d_5,5,4

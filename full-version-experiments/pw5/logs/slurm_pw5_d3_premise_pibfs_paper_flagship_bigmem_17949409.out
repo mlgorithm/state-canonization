@@ -1,0 +1,26 @@
+Starting job 17949409 on c6-3 on Saga at Mon May 4 11:11:45 CEST 2026
+
+
+Job 17949409 consumed 3031.5 billing hours from project nn9535k.
+
+Submitted 2026-05-04T11:11:44; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   2.0 days
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+17949409          64            0.0 %  2026-05-04T11:11:45   47.4 h  0
+17949409.batch    64      1     7.3 %  2026-05-04T11:11:45   47.4 h  0
+
+Used CPU time:   9.3 CPU days
+Unused CPU time: 117.0 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+17949409         128.0        
+17949409.batch   128.0    29.0
+
+Job 17949409 completed at Wed May 6 10:33:48 CEST 2026

@@ -1,0 +1,24 @@
+Starting job 7417438 on c3-53 on saga at Fri Jan 13 18:09:50 CET 2023
+
+
+Job 7417438 consumed 739.1 billing hours from project nn9535k.
+
+Submitted 2023-01-13T17:44:24; waited 25.4 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   23.1 hours
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+7417438          32            0.0 %  2023-01-13T18:09:50   23.1 h  Signal 125
+7417438.batch    32      1   189.8 %  2023-01-13T18:09:50   23.1 h  Signal 125
+
+Used CPU time:   58.5 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+7417438          64.0        
+7417438.batch    64.0    64.0
+
+Job 7417438 completed at Sat Jan 14 17:15:35 CET 2023

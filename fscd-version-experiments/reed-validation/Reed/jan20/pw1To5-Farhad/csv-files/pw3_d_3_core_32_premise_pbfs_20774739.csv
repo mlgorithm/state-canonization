@@ -1,0 +1,2 @@
+job-name,time,mem-per-cpu,ntasks,cpus-per-task,ntasks-per-node,script-file,command,account,width,Flags,Search Options,Threads,Search Type,input,MaxDegree,ChromaticNumber
+20774739,1-00:00:00,5G,1,32,1,../../jobs/pw3_d_3_core_32_premise_pbfs_20774739.sh,../program/Build/./treewidzard -atp  pw = 3 -pl -premise -nthreads 64 ParallelBreadthFirstSearch ../inputs/d_3.txt > ../program-outputs/pw3_d_3_core_32_premise_pbfs_20774739.txt,NN9535K,pw = 3,-pl,-premise,-nthreads 64,ParallelBreadthFirstSearch,../../inputs/d_3,3,3

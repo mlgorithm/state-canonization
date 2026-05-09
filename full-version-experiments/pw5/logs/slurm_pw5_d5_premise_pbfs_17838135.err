@@ -1,0 +1,2 @@
+/cluster/home/farhadvadiee/2026/thesis-v2/TreeWidzard-development/treewidzard.sh: line 44: 1243474 Killed                  "$BUILD_DIR/treewidzard" "$@"
+[2026-04-22T12:25:25.753] error: Detected 1 oom_kill event in StepId=17838135.batch. Some of the step tasks have been OOM Killed.

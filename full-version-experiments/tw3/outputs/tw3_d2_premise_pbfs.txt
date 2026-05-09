@@ -1,0 +1,38 @@
+--------------- TreeWidzard Dynamic Cores LOADING INFORAMATION --------------- 
+Loaded DP-Cores to TreeWidzard:ChromaticNumber_AtMost - CliqueNumber_AtLeast - ContainsK2Minor - ContainsMinor - FeedbackVertexSetNumber_AtMost - HasHamiltonianCycle - HasHamiltonianPath - HasMultipleEdges - HasPerfectMatching - IndependenceNumber - MaximumDegree_AtLeast - SimpleCliqueNumber_AtLeast - VertexCount - VertexCoverNumber_AtMost - 
+----------------------------------------------------------
+Property information:
+
+Formula: (( not x and ( not y and  not z)) implies w)
+
+w := ChromaticNumber_AtMost(3)
+Core type: Bool
+x := MaximumDegree_AtLeast(3)
+Core type: Bool
+y := SimpleCliqueNumber_AtLeast(3)
+Core type: Bool
+z := HasMultipleEdges()
+Core type: Bool
+
+Search information:
+
+Width parameter: tree_width = 3
+Search method: ParallelBreadthFirstSearch
+Premise flag: ACTIVATED
+
+Search process:
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        5                        4                        1,1,2,1
+2                        11                       6                        2,1,4,1
+3                        21                       10                       5,1,8,1
+4                        38                       17                       14,1,15,1
+5                        72                       34                       14,1,15,1
+6                        135                      63                       14,1,15,1
+7                        292                      157                      14,1,15,1
+8                        732                      440                      14,1,16,1
+9                        1510                     778                      14,1,17,1
+10                       2528                     1018                     14,1,19,1
+11                       2528                     0                        14,1,19,1
+
+Result: PROPERTY SATISFIED
+-----------------------------------------

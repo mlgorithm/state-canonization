@@ -1,0 +1,5 @@
+experiment,property,property_file,max_degree,chromatic_number
+tw2,d_2,properties/d_2.txt,2,3
+tw2,d_3,properties/d_3.txt,3,3
+tw2,d_4,properties/d_4.txt,4,4
+tw2,d_5,properties/d_5.txt,5,4

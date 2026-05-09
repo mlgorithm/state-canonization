@@ -1,0 +1,27 @@
+Starting job 17854947 on c6-4 on Saga at Sat Apr 25 00:57:14 CEST 2026
+
+[2026-04-26T00:57:43.015] error: *** JOB 17854947 ON c6-4 CANCELLED AT 2026-04-26T00:57:43 DUE TO TIME LIMIT ***
+
+Job 17854947 consumed 1536.5 billing hours from project nn9535k.
+
+Submitted 2026-04-24T16:30:03; waited 8.5 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   1.0 days
+
+Job timed out.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+17854947          64            0.0 %  2026-04-25T00:57:14   24.0 h  0
+17854947.batch    64      1     7.3 %  2026-04-25T00:57:14   24.0 h  Signal 15
+
+Used CPU time:   4.6 CPU days
+Unused CPU time: 59.4 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+17854947         320.0        
+17854947.batch   320.0    17.6
+
+Job 17854947 completed at Sun Apr 26 00:57:48 CEST 2026

@@ -1,0 +1,52 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 5
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 2
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        7                        6                        1,1,2,1
+2                        22                       15                       2,1,4,1
+3                        57                       35                       5,1,8,1
+4                        138                      81                       14,1,15,1
+5                        324                      186                      41,1,26,1
+6                        715                      391                      122,1,42,1
+7                        1486                     771                      122,1,42,1
+8                        2941                     1455                     122,1,42,1
+9                        5527                     2586                     122,1,42,1
+10                       9754                     4227                     122,1,43,1
+11                       16411                    6657                     122,1,43,1
+12                       26202                    9791                     122,1,43,1
+13                       40017                    13815                    122,1,43,1
+14                       58824                    18807                    122,1,44,1
+15                       82444                    23620                    122,1,44,1
+16                       113449                   31005                    122,1,44,1
+17                       149296                   35847                    122,1,44,1
+18                       187986                   38690                    122,1,45,1
+19                       236691                   48705                    122,1,45,1
+20                       282897                   46206                    122,1,45,1
+21                       326408                   43511                    122,1,45,1
+22                       376103                   49695                    122,1,46,1
+23                       412133                   36030                    122,1,46,1
+24                       443473                   31340                    122,1,46,1
+25                       471115                   27642                    122,1,46,1
+26                       485917                   14802                    122,1,47,1
+27                       498307                   12390                    122,1,47,1
+28                       504802                   6495                     122,1,47,1
+29                       507892                   3090                     122,1,47,1
+30                       509887                   1995                     122,1,47,1
+31                       510442                   555                      122,1,47,1
+32                       510892                   450                      122,1,47,1
+33                       510922                   30                       122,1,47,1
+34                       510952                   30                       122,1,47,1
+35                       510958                   6                        122,1,47,1
+36                       510964                   6                        122,1,47,1
+37                       510964                   0                        122,1,47,1
+Conjecture: Satisfied

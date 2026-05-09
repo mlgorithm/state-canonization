@@ -1,0 +1,34 @@
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 5
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 4
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        7                        6                        1,1,2,1
+2                        22                       15                       2,1,4,1
+3                        57                       35                       5,1,8,1
+4                        138                      81                       14,1,15,1
+5                        324                      186                      41,1,26,1
+6                        715                      391                      122,1,42,1
+7                        1546                     831                      122,1,42,1
+8                        3201                     1655                     122,1,42,1
+9                        6507                     3306                     122,1,42,1
+10                       12885                    6378                     122,1,43,1
+11                       24872                    11987                    122,1,45,1
+12                       47518                    22646                    122,1,48,1
+13                       88449                    40931                    122,1,48,1
+14                       162096                   73647                    122,1,48,1
+15                       294122                   132026                   122,1,48,1
+16                       519022                   224900                   122,1,49,1
+17                       904639                   385617                   122,1,50,1
+18                       1574105                  669466                   122,1,51,1
+19                       2671610                  1097505                  122,1,51,1
+20                       4420648                  1749038                  122,1,51,1

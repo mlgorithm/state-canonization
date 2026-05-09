@@ -1,0 +1,45 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 4
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 2
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        6                        5                        1,1,2,1
+2                        16                       10                       2,1,4,1
+3                        36                       20                       5,1,8,1
+4                        76                       40                       14,1,15,1
+5                        157                      81                       41,1,26,1
+6                        302                      145                      41,1,26,1
+7                        552                      250                      41,1,26,1
+8                        962                      410                      41,1,26,1
+9                        1607                     645                      41,1,27,1
+10                       2534                     927                      41,1,27,1
+11                       3799                     1265                     41,1,27,1
+12                       5459                     1660                     41,1,27,1
+13                       7379                     1920                     41,1,28,1
+14                       9879                     2500                     41,1,28,1
+15                       12674                    2795                     41,1,28,1
+16                       15309                    2635                     41,1,28,1
+17                       18604                    3295                     41,1,29,1
+18                       21379                    2775                     41,1,29,1
+19                       23594                    2215                     41,1,29,1
+20                       25884                    2290                     41,1,29,1
+21                       27114                    1230                     41,1,30,1
+22                       28084                    970                      41,1,30,1
+23                       28684                    600                      41,1,30,1
+24                       28934                    250                      41,1,30,1
+25                       29134                    200                      41,1,30,1
+26                       29154                    20                       41,1,30,1
+27                       29174                    20                       41,1,30,1
+28                       29179                    5                        41,1,30,1
+29                       29184                    5                        41,1,30,1
+30                       29184                    0                        41,1,30,1
+Conjecture: Satisfied

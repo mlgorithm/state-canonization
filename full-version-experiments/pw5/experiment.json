@@ -1,0 +1,18 @@
+{
+  "kind": "pw",
+  "width": 5,
+  "deltas": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "search_options": [
+    "none",
+    "premise"
+  ],
+  "search_types": [
+    "pbfs",
+    "pibfs"
+  ]
+}

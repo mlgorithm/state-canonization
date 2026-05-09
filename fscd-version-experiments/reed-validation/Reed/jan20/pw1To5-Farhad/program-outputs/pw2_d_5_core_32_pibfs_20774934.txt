@@ -1,0 +1,30 @@
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 2
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 5
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelIsomorphismBreadthFirstSearch
+Premise is NOT ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        2                        1                        1,1,2,1
+2                        3                        1                        2,1,4,1
+3                        5                        2                        5,1,8,1
+4                        8                        3                        5,1,8,1
+5                        13                       5                        5,1,8,1
+6                        24                       11                       5,1,8,1
+7                        44                       20                       5,1,9,1
+8                        81                       37                       5,1,9,1
+9                        149                      68                       5,1,9,1
+10                       254                      105                      5,1,9,1
+11                       401                      147                      5,1,10,1
+12                       577                      176                      5,1,10,1
+13                       801                      224                      5,1,10,1
+14                       1050                     249                      5,1,10,1
+15                       1339                     289                      5,1,11,1
+16                       1651                     312                      5,1,11,1

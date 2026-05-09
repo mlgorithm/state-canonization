@@ -1,0 +1,24 @@
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+tree_width 4
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 4
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        6                        5                        1,1,2,1
+2                        16                       10                       2,1,4,1
+3                        36                       20                       5,1,8,1
+4                        76                       40                       15,1,15,1
+5                        162                      86                       51,1,26,1
+6                        347                      185                      51,1,26,1
+7                        987                      640                      51,1,26,1
+8                        4232                     3245                     51,1,26,1
+9                        24934                    20702                    51,1,27,1
+10                       187914                   162980                   51,1,32,1

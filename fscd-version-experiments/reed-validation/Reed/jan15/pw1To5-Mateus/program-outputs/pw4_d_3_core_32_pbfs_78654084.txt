@@ -1,0 +1,32 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 4
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 3
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+Premise is NOT ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        6                        5                        1,1,2,1
+2                        16                       10                       2,1,4,1
+3                        36                       20                       5,1,8,1
+4                        86                       50                       14,1,15,1
+5                        212                      126                      41,1,26,1
+6                        543                      331                      41,1,26,1
+7                        1428                     885                      41,1,26,1
+8                        3624                     2196                     41,1,26,1
+9                        9075                     5451                     41,1,29,1
+10                       22033                    12958                    41,1,29,1
+11                       52416                    30383                    41,1,32,1
+12                       122552                   70136                    41,1,32,1
+13                       279687                   157135                   41,1,32,1
+14                       623828                   344141                   41,1,32,1
+15                       1349841                  726013                   41,1,35,1
+16                       2873263                  1523422                  41,1,35,1
+17                       6019042                  3145779                  41,1,36,1
+18                       12316350                 6297308                  41,1,36,1

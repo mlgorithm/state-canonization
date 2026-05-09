@@ -1,0 +1,39 @@
+--------------- TreeWidzard Dynamic Cores LOADING INFORAMATION --------------- 
+Loaded DP-Cores to TreeWidzard:ChromaticNumber_AtMost - CliqueNumber_AtLeast - ContainsK2Minor - ContainsMinor - FeedbackVertexSetNumber_AtMost - HasHamiltonianCycle - HasHamiltonianPath - HasMultipleEdges - HasPerfectMatching - IndependenceNumber - MaximumDegree_AtLeast - SimpleCliqueNumber_AtLeast - VertexCount - VertexCoverNumber_AtMost - 
+----------------------------------------------------------
+Property information:
+
+Formula: (( not x and ( not y and  not z)) implies w)
+
+w := ChromaticNumber_AtMost(4)
+Core type: Bool
+x := MaximumDegree_AtLeast(5)
+Core type: Bool
+y := SimpleCliqueNumber_AtLeast(3)
+Core type: Bool
+z := HasMultipleEdges()
+Core type: Bool
+
+Search information:
+
+Width parameter: path_width = 5
+Search method: ParallelBreadthFirstSearch
+Premise flag: NOT ACTIVATED
+
+Search process:
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        7                        6                        1,1,2,1
+2                        22                       15                       2,1,4,1
+3                        57                       35                       5,1,8,1
+4                        153                      96                       15,1,15,1
+5                        420                      267                      51,1,26,1
+6                        1183                     763                      187,1,42,1
+7                        3442                     2259                     187,1,42,1
+8                        10170                    6728                     187,1,42,1
+9                        29840                    19670                    187,1,42,1
+10                       86488                    56648                    187,1,46,1
+11                       246443                   159955                   187,1,46,1
+12                       692173                   445730                   187,1,48,1
+13                       1915879                  1223706                  187,1,52,1
+14                       5228140                  3312261                  187,1,52,1
+15                       14027131                 8798991                  187,1,52,1

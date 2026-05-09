@@ -1,0 +1,6 @@
+x := MaximumDegree_AtLeast(4)
+y := SimpleCliqueNumber_AtLeast(3)
+z := HasMultipleEdges()
+w := ChromaticNumber_AtMost(3)
+Formula
+((NOT x) AND ((NOT y) AND (NOT z))) IMPLIES w

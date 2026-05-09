@@ -1,0 +1,48 @@
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 5
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 5
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelIsomorphismBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        2                        1                        1,1,2,1
+2                        3                        1                        2,1,4,1
+3                        5                        2                        5,1,8,1
+4                        8                        3                        14,1,15,1
+5                        12                       4                        41,1,26,1
+6                        19                       7                        122,1,42,1
+7                        29                       10                       122,1,42,1
+8                        45                       16                       122,1,42,1
+9                        70                       25                       122,1,42,1
+10                       110                      40                       122,1,43,1
+11                       172                      62                       122,1,45,1
+12                       270                      98                       122,1,48,1
+13                       426                      156                      122,1,52,1
+14                       678                      252                      122,1,52,1
+15                       1071                     393                      122,1,52,1
+16                       1699                     628                      122,1,52,1
+17                       2705                     1006                     122,1,52,1
+18                       4306                     1601                     122,1,52,1
+19                       6812                     2506                     122,1,52,1
+20                       10686                    3874                     122,1,52,1
+21                       16750                    6064                     122,1,52,1
+22                       26262                    9512                     122,1,52,1
+23                       40661                    14399                    122,1,52,1
+24                       62075                    21414                    122,1,52,1
+25                       94498                    32423                    122,1,52,1
+26                       143777                   49279                    122,1,52,1
+27                       216471                   72694                    122,1,52,1
+28                       321306                   104835                   122,1,52,1
+29                       476073                   154767                   122,1,52,1
+30                       710698                   234625                   122,1,52,1
+31                       1060204                  349506                   122,1,52,1
+32                       1568382                  508178                   122,1,52,1
+33                       2327105                  758723                   122,1,52,1
+34                       3514667                  1187562                  122,1,52,1

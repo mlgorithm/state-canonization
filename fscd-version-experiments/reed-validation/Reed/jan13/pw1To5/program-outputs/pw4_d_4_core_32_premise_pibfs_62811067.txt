@@ -1,0 +1,69 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 4
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 4
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelIsomorphismBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        2                        1                        1,1,2,1
+2                        3                        1                        2,1,4,1
+3                        5                        2                        5,1,8,1
+4                        8                        3                        15,1,15,1
+5                        12                       4                        51,1,26,1
+6                        18                       6                        51,1,26,1
+7                        27                       9                        51,1,26,1
+8                        41                       14                       51,1,26,1
+9                        61                       20                       51,1,27,1
+10                       91                       30                       51,1,29,1
+11                       136                      45                       51,1,32,1
+12                       202                      66                       51,1,32,1
+13                       298                      96                       51,1,32,1
+14                       438                      140                      51,1,32,1
+15                       642                      204                      51,1,32,1
+16                       931                      289                      51,1,32,1
+17                       1323                     392                      51,1,32,1
+18                       1847                     524                      51,1,32,1
+19                       2571                     724                      51,1,32,1
+20                       3485                     914                      51,1,32,1
+21                       4599                     1114                     51,1,32,1
+22                       5955                     1356                     51,1,32,1
+23                       7533                     1578                     51,1,32,1
+24                       9235                     1702                     51,1,32,1
+25                       11047                    1812                     51,1,32,1
+26                       12895                    1848                     51,1,32,1
+27                       14680                    1785                     51,1,32,1
+28                       16341                    1661                     51,1,32,1
+29                       17911                    1570                     51,1,32,1
+30                       19285                    1374                     51,1,32,1
+31                       20471                    1186                     51,1,32,1
+32                       21475                    1004                     51,1,32,1
+33                       22264                    789                      51,1,32,1
+34                       22876                    612                      51,1,32,1
+35                       23351                    475                      51,1,32,1
+36                       23679                    328                      51,1,32,1
+37                       23934                    255                      51,1,32,1
+38                       24106                    172                      51,1,32,1
+39                       24226                    120                      51,1,32,1
+40                       24316                    90                       51,1,32,1
+41                       24374                    58                       51,1,32,1
+42                       24414                    40                       51,1,32,1
+43                       24445                    31                       51,1,32,1
+44                       24462                    17                       51,1,32,1
+45                       24475                    13                       51,1,32,1
+46                       24481                    6                        51,1,32,1
+47                       24485                    4                        51,1,32,1
+48                       24488                    3                        51,1,32,1
+49                       24490                    2                        51,1,32,1
+50                       24491                    1                        51,1,32,1
+51                       24492                    1                        51,1,32,1
+52                       24493                    1                        51,1,32,1
+53                       24494                    1                        51,1,32,1
+54                       24494                    0                        51,1,32,1
+Conjecture: Satisfied

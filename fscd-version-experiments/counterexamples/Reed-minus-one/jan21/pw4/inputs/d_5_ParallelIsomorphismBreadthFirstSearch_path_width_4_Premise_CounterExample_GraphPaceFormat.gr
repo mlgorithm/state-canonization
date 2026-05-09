@@ -1,0 +1,34 @@
+c This is the counter example for ../inputs/d_5_ParallelIsomorphismBreadthFirstSearch_path_width_4_Premise_CounterExample_GraphPaceFormat.gr
+p tw 17 32
+2 3
+2 4
+1 5
+1 2
+6 3
+1 6
+7 4
+7 3
+7 5
+8 4
+8 5
+8 6
+9 3
+9 5
+10 5
+3 11
+9 12
+12 4
+10 12
+12 11
+9 13
+13 4
+9 14
+15 10
+15 13
+15 14
+15 11
+16 13
+16 17
+10 17
+16 11
+17 14

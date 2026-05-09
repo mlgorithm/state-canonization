@@ -1,0 +1,1 @@
+/var/spool/slurmd/job7418622/slurm_script: line 9: 14073 Segmentation fault      (core dumped) ../program/Build/./treewidzard -atp pw = 3 -pl -nthreads 64 ParallelIsomorphismBreadthFirstSearch ../inputs/d_2.txt > ../program-outputs/pw3_d_2_core_32_pibfs_76759022.txt

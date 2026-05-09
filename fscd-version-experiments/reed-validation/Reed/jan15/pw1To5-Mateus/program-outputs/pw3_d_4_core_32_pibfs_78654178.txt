@@ -1,0 +1,57 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 3
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 4
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 4
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelIsomorphismBreadthFirstSearch
+Premise is NOT ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        2                        1                        1,1,2,1
+2                        3                        1                        2,1,4,1
+3                        5                        2                        5,1,8,1
+4                        9                        4                        15,1,15,1
+5                        15                       6                        15,1,15,1
+6                        29                       14                       15,1,15,1
+7                        57                       28                       15,1,15,1
+8                        115                      58                       15,1,17,1
+9                        226                      111                      15,1,18,1
+10                       438                      212                      15,1,18,1
+11                       812                      374                      15,1,18,1
+12                       1469                     657                      15,1,19,1
+13                       2571                     1102                     15,1,20,1
+14                       4326                     1755                     15,1,20,1
+15                       7050                     2724                     15,1,20,1
+16                       11171                    4121                     15,1,21,1
+17                       17145                    5974                     15,1,22,1
+18                       25276                    8131                     15,1,22,1
+19                       36176                    10900                    15,1,22,1
+20                       50280                    14104                    15,1,23,1
+21                       66911                    16631                    15,1,24,1
+22                       85402                    18491                    15,1,24,1
+23                       105974                   20572                    15,1,24,1
+24                       127470                   21496                    15,1,24,1
+25                       147289                   19819                    15,1,26,1
+26                       165196                   17907                    15,1,26,1
+27                       181083                   15887                    15,1,26,1
+28                       193716                   12633                    15,1,26,1
+29                       202537                   8821                     15,1,26,1
+30                       209552                   7015                     15,1,26,1
+31                       214203                   4651                     15,1,26,1
+32                       217744                   3541                     15,1,26,1
+33                       220155                   2411                     15,1,26,1
+34                       221789                   1634                     15,1,26,1
+35                       222802                   1013                     15,1,26,1
+36                       223378                   576                      15,1,26,1
+37                       223683                   305                      15,1,26,1
+38                       223827                   144                      15,1,26,1
+39                       223889                   62                       15,1,26,1
+40                       223914                   25                       15,1,26,1
+41                       223920                   6                        15,1,26,1
+42                       223920                   0                        15,1,26,1
+Conjecture: Satisfied

@@ -1,0 +1,49 @@
+--------------- TreeWidzard Dynamic Cores LOADING INFORAMATION --------------- 
+Loaded DP-Cores to TreeWidzard:ChromaticNumber_AtMost - CliqueNumber_AtLeast - ContainsK2Minor - ContainsMinor - FeedbackVertexSetNumber_AtMost - HasHamiltonianCycle - HasHamiltonianPath - HasMultipleEdges - HasPerfectMatching - IndependenceNumber - MaximumDegree_AtLeast - SimpleCliqueNumber_AtLeast - VertexCount - VertexCoverNumber_AtMost - 
+----------------------------------------------------------
+Property information:
+
+Formula: (( not x and ( not y and  not z)) implies w)
+
+w := ChromaticNumber_AtMost(3)
+Core type: Bool
+x := MaximumDegree_AtLeast(4)
+Core type: Bool
+y := SimpleCliqueNumber_AtLeast(3)
+Core type: Bool
+z := HasMultipleEdges()
+Core type: Bool
+
+Search information:
+
+Width parameter: path_width = 4
+Search method: ParallelIsomorphismBreadthFirstSearch
+Premise flag: NOT ACTIVATED
+
+Search process:
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        2                        1                        1,1,2,1
+2                        3                        1                        2,1,4,1
+3                        5                        2                        5,1,8,1
+4                        9                        4                        14,1,15,1
+5                        16                       7                        41,1,26,1
+6                        31                       15                       41,1,26,1
+7                        61                       30                       41,1,26,1
+8                        122                      61                       41,1,26,1
+9                        242                      120                      41,1,29,1
+10                       483                      241                      41,1,29,1
+11                       970                      487                      41,1,32,1
+12                       1953                     983                      41,1,32,1
+13                       3931                     1978                     41,1,32,1
+14                       7855                     3924                     41,1,32,1
+15                       15619                    7764                     41,1,35,1
+16                       30943                    15324                    41,1,35,1
+17                       61195                    30252                    41,1,36,1
+18                       119687                   58492                    41,1,36,1
+19                       232311                   112624                   41,1,38,1
+20                       448470                   216159                   41,1,38,1
+21                       855008                   406538                   41,1,39,1
+22                       1608943                  753935                   41,1,39,1
+23                       2996423                  1387480                  41,1,41,1
+24                       5494384                  2497961                  41,1,41,1
+25                       9903864                  4409480                  41,1,42,1

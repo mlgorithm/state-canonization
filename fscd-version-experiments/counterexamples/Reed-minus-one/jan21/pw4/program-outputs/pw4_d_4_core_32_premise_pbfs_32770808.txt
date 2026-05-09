@@ -1,0 +1,48 @@
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 4
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 4
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        6                        5                        1,1,2,1
+2                        16                       10                       2,1,4,1
+3                        36                       20                       5,1,8,1
+4                        76                       40                       14,1,15,1
+5                        157                      81                       41,1,26,1
+6                        302                      145                      41,1,26,1
+7                        572                      270                      41,1,26,1
+8                        1042                     470                      41,1,26,1
+9                        1852                     810                      41,1,27,1
+10                       3269                     1417                     41,1,29,1
+11                       5549                     2280                     41,1,32,1
+12                       9399                     3850                     41,1,32,1
+13                       15619                    6220                     41,1,32,1
+14                       24919                    9300                     41,1,32,1
+15                       40059                    15140                    41,1,32,1
+16                       63679                    23620                    41,1,32,1
+17                       96344                    32665                    41,1,32,1
+18                       143599                   47255                    41,1,32,1
+19                       213434                   69835                    41,1,32,1
+20                       307174                   93740                    41,1,32,1
+21                       427349                   120175                   41,1,32,1
+22                       582214                   154865                   41,1,32,1
+23                       779094                   196880                   41,1,32,1
+24                       1018204                  239110                   41,1,32,1
+25                       1293484                  275280                   41,1,32,1
+26                       1610314                  316830                   41,1,32,1
+27                       1987279                  376965                   41,1,32,1
+28                       2435244                  447965                   41,1,32,1
+29                       2949579                  514335                   41,1,32,1
+30                       3544114                  594535                   41,1,32,1
+31                       4297614                  753500                   41,1,32,1
+32                       5278749                  981135                   41,1,32,1
+33                       6447454                  1168705                  41,1,32,1
+34                       7816534                  1369080                  41,1,32,1

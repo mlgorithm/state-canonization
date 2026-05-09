@@ -1,0 +1,65 @@
+File CliqueNumberSimpleGraphs_AtLeast.so Loaded. Core Name: CliqueNumberSimpleGraphs
+File ChromaticNumber_AtMost.so Loaded. Core Name: ChromaticNumber
+File HasMultipleEdges.so Loaded. Core Name: HasMultipleEdges
+File MaxDegree_AtLeast.so Loaded. Core Name: MaxDegree
+CONJECTURE: (( not x and ( not y and  not z)) implies w)
+path_width 4
+1 - Variable: w    NAME: ChromaticNumber               ParameterType: UnsignedInt 3
+2 - Variable: x    NAME: MaxDegree                     ParameterType: UnsignedInt 3
+3 - Variable: y    NAME: CliqueNumberSimpleGraphs      ParameterType: UnsignedInt 2
+4 - Variable: z    NAME: HasMultipleEdges              ParameterType: ParameterLess
+core size: 4
+Search Method: ParallelBreadthFirstSearch
+ Premise is ACTIVATED
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        6                        5                        1,1,2,1
+2                        16                       10                       2,1,4,1
+3                        36                       20                       5,1,8,1
+4                        76                       40                       14,1,15,1
+5                        157                      81                       41,1,26,1
+6                        302                      145                      41,1,26,1
+7                        572                      270                      41,1,26,1
+8                        1042                     470                      41,1,26,1
+9                        1847                     805                      41,1,27,1
+10                       3239                     1392                     41,1,29,1
+11                       5464                     2225                     41,1,29,1
+12                       9114                     3650                     41,1,29,1
+13                       14799                    5685                     41,1,29,1
+14                       23079                    8280                     41,1,30,1
+15                       35944                    12865                    41,1,31,1
+16                       54449                    18505                    41,1,31,1
+17                       78239                    23790                    41,1,31,1
+18                       110449                   32210                    41,1,31,1
+19                       152664                   42215                    41,1,32,1
+20                       201569                   48905                    41,1,32,1
+21                       256979                   55410                    41,1,32,1
+22                       318259                   61280                    41,1,32,1
+23                       383254                   64995                    41,1,32,1
+24                       450869                   67615                    41,1,32,1
+25                       514854                   63985                    41,1,32,1
+26                       578254                   63400                    41,1,32,1
+27                       647184                   68930                    41,1,32,1
+28                       710214                   63030                    41,1,32,1
+29                       768164                   57950                    41,1,32,1
+30                       831309                   63145                    41,1,32,1
+31                       891824                   60515                    41,1,32,1
+32                       940624                   48800                    41,1,32,1
+33                       985019                   44395                    41,1,32,1
+34                       1024404                  39385                    41,1,32,1
+35                       1053299                  28895                    41,1,32,1
+36                       1077564                  24265                    41,1,32,1
+37                       1098724                  21160                    41,1,32,1
+38                       1116024                  17300                    41,1,32,1
+39                       1128369                  12345                    41,1,32,1
+40                       1138309                  9940                     41,1,32,1
+41                       1145604                  7295                     41,1,32,1
+42                       1150164                  4560                     41,1,32,1
+43                       1152844                  2680                     41,1,32,1
+44                       1155104                  2260                     41,1,32,1
+45                       1155969                  865                      41,1,32,1
+46                       1156474                  505                      41,1,32,1
+47                       1156714                  240                      41,1,32,1
+48                       1156834                  120                      41,1,32,1
+49                       1156954                  120                      41,1,32,1
+50                       1156954                  0                        41,1,32,1
+Conjecture: Satisfied

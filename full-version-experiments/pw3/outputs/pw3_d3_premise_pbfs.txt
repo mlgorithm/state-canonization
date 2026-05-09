@@ -1,0 +1,59 @@
+--------------- TreeWidzard Dynamic Cores LOADING INFORAMATION --------------- 
+Loaded DP-Cores to TreeWidzard:ChromaticNumber_AtMost - CliqueNumber_AtLeast - ContainsK2Minor - ContainsMinor - FeedbackVertexSetNumber_AtMost - HasHamiltonianCycle - HasHamiltonianPath - HasMultipleEdges - HasPerfectMatching - IndependenceNumber - MaximumDegree_AtLeast - SimpleCliqueNumber_AtLeast - VertexCount - VertexCoverNumber_AtMost - 
+----------------------------------------------------------
+Property information:
+
+Formula: (( not x and ( not y and  not z)) implies w)
+
+w := ChromaticNumber_AtMost(3)
+Core type: Bool
+x := MaximumDegree_AtLeast(4)
+Core type: Bool
+y := SimpleCliqueNumber_AtLeast(3)
+Core type: Bool
+z := HasMultipleEdges()
+Core type: Bool
+
+Search information:
+
+Width parameter: path_width = 3
+Search method: ParallelBreadthFirstSearch
+Premise flag: ACTIVATED
+
+Search process:
+Iteration                ALLSTATES                NEWSTATES                Max WITNESSSET SIZE
+1                        5                        4                        1,1,2,1
+2                        11                       6                        2,1,4,1
+3                        21                       10                       5,1,8,1
+4                        38                       17                       14,1,15,1
+5                        68                       30                       14,1,15,1
+6                        113                      45                       14,1,15,1
+7                        185                      72                       14,1,15,1
+8                        300                      115                      14,1,16,1
+9                        460                      160                      14,1,18,1
+10                       720                      260                      14,1,18,1
+11                       1068                     348                      14,1,18,1
+12                       1514                     446                      14,1,18,1
+13                       2192                     678                      14,1,18,1
+14                       2982                     790                      14,1,18,1
+15                       3844                     862                      14,1,18,1
+16                       4908                     1064                     14,1,18,1
+17                       5938                     1030                     14,1,18,1
+18                       6848                     910                      14,1,18,1
+19                       7680                     832                      14,1,18,1
+20                       8310                     630                      14,1,18,1
+21                       8818                     508                      14,1,18,1
+22                       9204                     386                      14,1,18,1
+23                       9466                     262                      14,1,18,1
+24                       9646                     180                      14,1,18,1
+25                       9746                     100                      14,1,18,1
+26                       9794                     48                       14,1,18,1
+27                       9818                     24                       14,1,18,1
+28                       9830                     12                       14,1,18,1
+29                       9842                     12                       14,1,18,1
+30                       9846                     4                        14,1,18,1
+31                       9850                     4                        14,1,18,1
+32                       9850                     0                        14,1,18,1
+
+Result: PROPERTY SATISFIED
+-----------------------------------------
